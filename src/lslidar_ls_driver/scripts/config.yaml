@@ -1,0 +1,4 @@
+gps_port: '/dev/wheeltec_gps'
+gps_baud_rate : 9600
+imu_port : '/dev/wheeltec_IMU'
+imu_baud_rate : 460800

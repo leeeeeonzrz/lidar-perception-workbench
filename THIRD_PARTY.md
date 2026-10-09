@@ -1,11 +1,8 @@
-# 第三方依赖
+# 第三方组件与来源
 
-本仓库没有捆绑以下项目的源代码、权重、SDK 或二进制。依赖由使用者另行获取并遵守各自许可。
+- `src/lslidar_ls_driver/LICENSE` 保留原激光雷达驱动的许可文件，相关源码中的厂商/原作者声明继续保留；[Apache 2.0 全文](LICENSES/Apache-2.0.txt) 一并附上。
+- 驱动目录中的厂商联系人属于来源信息，不作为个人联系方式改写。
+- ROS、Open3D、PyQt5、pyqtgraph、NumPy、SciPy 等按各自许可提供；仓库未附带这些依赖的二进制打包文件。
+- 目录包含集成组件和项目处理代码，不能把整个驱动归为个人从零实现。
 
-- [NumPy](https://numpy.org/)
-- [SciPy](https://scipy.org/)
-- [Open3D](https://www.open3d.org/)
-- [PyQt](https://www.riverbankcomputing.com/software/pyqt/)
-- [pyqtgraph](https://www.pyqtgraph.org/)
-
-本清单不为任何未分发的原始工程材料授予许可。
+本文件说明来源边界，不替代原文件中的许可证，也不为整个仓库追溯性添加统一的新许可证。
